@@ -7,16 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Médico ginecológo especializado en obstericia en Barranquilla, Atlántico.">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="animate.css">
 
    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Unica+One" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
   <style>
   @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Tangerine:700');
   span{
   	margin: 5px;
 
   	display: block;
+  }
+
+  .handler {
+  -webkit-animation-duration: 6s;
+  
   }
 .bg-1{
 
@@ -41,27 +47,31 @@
   	border-color: black;
   	vertical-align: center;
   }
+  .gold{
+color:#d3b92d;
+
+  }
   </style>
 </head>
 <body>
       <!-- Jumbotron-->
-		<div class="jumbotron text-center bg-1" style="margin-bottom: 0px;">
+		<div class="jumbotron text-center bg-1 animated fadeInDown handler" style="margin-bottom: 0px;">
 			  <h1 style="font-family: 'Poiret One', bold;">Gustavo Ahumada Pla M. D.</h1>
 			
 			  <hr id="filete">
 		 	
-		 	 <h2 style="font-family: 'Unica One', cursive;">Ginecología Obstetricia</h2> 
+		 	 <h2  class="gold" style="font-family: 'Unica One', cursive;">Ginecología Obstetricia</h2> 
 		
 		</div>
 
-<img class="icon icons8-Caduceus-Filled" style="margin: auto; display: block" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEZklEQVRoQ9WajZFNQRCFeyNABIgAESACKwJEgAgQARsBGwEiQASIABFYEVDf1hx1avbOvXPf7Xm1r6tevX33Z6ZP/5zumdmjWC9XI+JRRBxHxI2I4PfniHgSEWc2HNdflOe4/C4iXlXT3Y6I1xFxr1z/VsY6iYifa1Q7WvNwUexZUb5+lYnvGJg3EfG0eggFeR8B6I/GWNznfYC7cZrq9gLB8u8jAgvOyfOiAM/8nlASsDfLAADCG3OCh/A037PSAwS3AwILLslpRDwuD2HJK9ULv0o4cvll8fDSmIyDgQjNnT1CaODiXiEUULCl6NL9uXnQA0CT0vII1n9ridoL5GFEfLCHmRxSQLCoQPKb63h6jYhULhBBDQQAD4oXekKpVuJab3KWUCWP1gqhhoEgjv9EABAoEiEXSOZdAEgZBsZqhABWYzwlqv6GOPC2KHctEH+euRj/DCBTNLllcN69XwAx0d0y2JeiPAA+bZ2gev9EoUX8UuSyZJ9AMNCx5wiWgjpxPZ/rK1ExIN4lpBROUx5hWMKMOagl8ljvdH/K+MwDsZyTS4u1NIkKIN91TfCJKVpTPO9APjZYEOORMy2R4twnB2G+CwWypyAyAAQgUPIYSmINvMDg6q2UxNwjxGRxashfA8P7akF4H+8ASqQgRjpP5iV39QJpjcPkeIKJvk60MISbgFD16zxESfozjEBdma3ec2C2AtHYNRPRiuARAIresb4U9vwTMSwZffZ+FhCv0t44SnE8BzBVdn++lV+rgGUBQWGv0op/viU8g4fIAeqICi+htdjdLqHKAsI8U90sCkIGMJYSFiBcI3e+dywNljCc388E0gIj2iSRfeVHuKnF6FJ2H8nuc0DPeGeqU1AdAFCqZHukBkRd4FN3CXiHJE+TEUBQnJDxNQPXyAvvDlLYSpbIBkIiUxiRehHEPa4JjLrhFK9kA3HmckZS21F32Wnzpw1UzOpA1CRS9UlyqJiiyAoU8Y2IzV7JBuKdLMqz9eP1Q2GH4r7HdemAUK1JcuUBXqCXAgz3CC08QmtOuK3aTdx3HanXF4Bgd0Xtiva9du50pwBlh5bmmFosze5LbY2tUUDQS+sLrx2EGt5JC6lRdUTjqtPlGybzzWxCjbzZ3PG6F0d4hGYQxancygsoGOp1EqB9T5MRQHzJ63u9XvUBUG+vbgI1AggbDJK6n/JdFQe5CQQvjwBC7N8qmhFOfpLlLcqlbhrRv14pwlCeL+QQH9YtaTLCIyjnPZWU9ToiVrv0QOQZLF/XkVS2Gl1HvJ6ov2oRQIpXRoUWJ1F0t6ojfnSh3cUUAKM9IgpWq05icxQ9bN5RHhEF+3JWp7y08FtOxSY9OQqIul9fXOEVnRDrgDQtvEYBQUEVv/rQH0AH1/16cTzI9QgFkYSnopMP/KZt4ZtmMV1GhZaaQz/7EAGk7L7XlhgFRHVDmw/Mq/8EYmfloHIErxBO+h8tTq5aB6KbQ22UR1CM3KDXEuXq78WDzV1Q/QPHIwJh9BmCWAAAAABJRU5ErkJggg==">
+<img class="icon icons8-Caduceus-Filled animated fadeIn handler" style="margin: auto; display: block" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEZklEQVRoQ9WajZFNQRCFeyNABIgAESACKwJEgAgQARsBGwEiQASIABFYEVDf1hx1avbOvXPf7Xm1r6tevX33Z6ZP/5zumdmjWC9XI+JRRBxHxI2I4PfniHgSEWc2HNdflOe4/C4iXlXT3Y6I1xFxr1z/VsY6iYifa1Q7WvNwUexZUb5+lYnvGJg3EfG0eggFeR8B6I/GWNznfYC7cZrq9gLB8u8jAgvOyfOiAM/8nlASsDfLAADCG3OCh/A037PSAwS3AwILLslpRDwuD2HJK9ULv0o4cvll8fDSmIyDgQjNnT1CaODiXiEUULCl6NL9uXnQA0CT0vII1n9ridoL5GFEfLCHmRxSQLCoQPKb63h6jYhULhBBDQQAD4oXekKpVuJab3KWUCWP1gqhhoEgjv9EABAoEiEXSOZdAEgZBsZqhABWYzwlqv6GOPC2KHctEH+euRj/DCBTNLllcN69XwAx0d0y2JeiPAA+bZ2gev9EoUX8UuSyZJ9AMNCx5wiWgjpxPZ/rK1ExIN4lpBROUx5hWMKMOagl8ljvdH/K+MwDsZyTS4u1NIkKIN91TfCJKVpTPO9APjZYEOORMy2R4twnB2G+CwWypyAyAAQgUPIYSmINvMDg6q2UxNwjxGRxashfA8P7akF4H+8ASqQgRjpP5iV39QJpjcPkeIKJvk60MISbgFD16zxESfozjEBdma3ec2C2AtHYNRPRiuARAIresb4U9vwTMSwZffZ+FhCv0t44SnE8BzBVdn++lV+rgGUBQWGv0op/viU8g4fIAeqICi+htdjdLqHKAsI8U90sCkIGMJYSFiBcI3e+dywNljCc388E0gIj2iSRfeVHuKnF6FJ2H8nuc0DPeGeqU1AdAFCqZHukBkRd4FN3CXiHJE+TEUBQnJDxNQPXyAvvDlLYSpbIBkIiUxiRehHEPa4JjLrhFK9kA3HmckZS21F32Wnzpw1UzOpA1CRS9UlyqJiiyAoU8Y2IzV7JBuKdLMqz9eP1Q2GH4r7HdemAUK1JcuUBXqCXAgz3CC08QmtOuK3aTdx3HanXF4Bgd0Xtiva9du50pwBlh5bmmFosze5LbY2tUUDQS+sLrx2EGt5JC6lRdUTjqtPlGybzzWxCjbzZ3PG6F0d4hGYQxancygsoGOp1EqB9T5MRQHzJ63u9XvUBUG+vbgI1AggbDJK6n/JdFQe5CQQvjwBC7N8qmhFOfpLlLcqlbhrRv14pwlCeL+QQH9YtaTLCIyjnPZWU9ToiVrv0QOQZLF/XkVS2Gl1HvJ6ov2oRQIpXRoUWJ1F0t6ojfnSh3cUUAKM9IgpWq05icxQ9bN5RHhEF+3JWp7y08FtOxSY9OQqIul9fXOEVnRDrgDQtvEYBQUEVv/rQH0AH1/16cTzI9QgFkYSnopMP/KZt4ZtmMV1GhZaaQz/7EAGk7L7XlhgFRHVDmw/Mq/8EYmfloHIErxBO+h8tTq5aB6KbQ22UR1CM3KDXEuXq78WDzV1Q/QPHIwJh9BmCWAAAAABJRU5ErkJggg==">
 <br>
 
     <!--  Primera row-->
-		<div class="row">
+		<div class="row animated fadeInUp handler">
 			<div class="col-sm-2"></div>
     		<div class="col-sm-8 text-center">
-    			<h3 class="text-center" style="font-family: 'Unica One', cursive;">Consulta privada</h3>
+    			<h3 class="text-center gold" style="font-family: 'Unica One', cursive;">Consulta privada</h3>
     			<hr class="separador">
     			<span class="text-center" style="font-family: 'Comfortaa', cursive;"><img src="glyphicons-234-direction.png"> Calle 87 # 42 E 189 Barranquilla, Colombia </span><br>
     			<span class="text-center" style="font-family: 'Comfortaa', cursive;"><img src="glyphicons-667-call-incoming.png"> (057) 311-651-1209 </span><br>
@@ -72,10 +82,10 @@
 		</div>
 
     <!-- Segunda row-->
-      <div class="row">
+      <div class="row animated fadeInUp handler">
       <div class="col-sm-2"></div>
       <div class="col-sm-8">
-        <h3 class="text-center" style="font-family: 'Unica One', cursive;">Trayectoria</h3>
+        <h3 class="text-center gold" style="font-family: 'Unica One', cursive;">Trayectoria</h3>
         <hr class="separador">
         <span class="text-center" style="font-family: 'Comfortaa', cursive;">Doctor en Medicina y Cirugía</span>
         <span class="text-center" style="font-family: 'Unica One';">Universidad de Cartagena</span><br>
