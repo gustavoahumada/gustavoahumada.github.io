@@ -3,10 +3,13 @@ span{
 	margin: 3px;
   margin-left: 10px;
   margin-right: 10px;
+
 	display: block;
 }
 .jumbotron{
   z-index: -10;
+  padding-left:10px; 
+  padding-right:10px;
 }
 nav{
   z-index: 10;
