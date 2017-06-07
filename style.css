@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Tangerine:700');
+span{
+	margin: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+	display: block;
+}
+.jumbotron{
+  z-index: -10;
+}
+nav{
+  z-index: 10;
+}
+
+body{
+  font-family:'Comfortaa', cursive;
+}
+footer{
+  margin-top: 50px;
+}
+
+.unica{
+  font-family: 'Unica One', cursive;
+
+}
+.lista{
+  margin-bottom: 5px;
+}
+.handler {
+  -webkit-animation-duration: 6s;
+
+}
+.bg-1{
+  background-color: #ffffff; 
+  color:  black;
+}
+#filete{
+  height: 1px;
+	margin: auto;
+	border-color: black;
+	vertical-align: center;
+	width:90%;
+
+}
+.separador{
+  width:40%;
+}
+
+hr{
+	height: 1px;	
+	border-color: black;
+	vertical-align: center;
+  }
+
+.gold{
+  color:#d29e2c;
+}
+
+.grey{
+  color:#d3d3d3;
+  background-color: #d3d3d3; 
+  margin: auto;
+  vertical-align: center;
+  width:90%;
+  }
+  
