@@ -94,4 +94,14 @@ hr{
 
   }
 
+.para_imagen{
+  width:50%;
+  height: 50%;
+  margin: auto;
+}
 
+#foto{
+width:100%;
+height:20%;
+
+}
